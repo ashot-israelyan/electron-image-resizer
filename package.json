@@ -1,0 +1,20 @@
+{
+  "name": "image-resizer-electron",
+  "productName": "Image Resizer",
+  "version": "1.0.0",
+  "description": "App to resize image dimensions",
+  "main": "main.js",
+  "author": "Ashot Israelyan",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dev": "npx electronmon ."
+  },
+  "devDependencies": {
+    "electron": "^20.2.0"
+  },
+  "dependencies": {
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  }
+}
